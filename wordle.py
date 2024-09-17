@@ -1,4 +1,8 @@
-word = "logic"
+import random
+
+possible_words = ["kilns", "quail", "logic", "jumps", "bring"]
+
+word = random.choice(possible_words)
 
 # colors for printing
 default = '\033[0m'
